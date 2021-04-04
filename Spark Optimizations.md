@@ -24,3 +24,7 @@ e.g. If you have to apply an Upper function on field1 of target DF and the sourc
 5. Technique 5: Bucketing
 
 ![image](https://user-images.githubusercontent.com/53032061/113518477-36b5ee80-95a4-11eb-8e3d-0b5b4d5d17f3.png)
+
+6 Technique 6: Skewed Joins
+
+![image](https://user-images.githubusercontent.com/53032061/113518771-f35c7f80-95a5-11eb-8378-87762ba49282.png)
