@@ -15,6 +15,10 @@ Though Spark tries to do column pruning as much as possible, it does not achieve
 
 e.g. If you have to apply an Upper function on field1 of target DF and the source of this field in SourceDF1, instead of joining SourceDF1, apply this Upper function to create SourceDF2 and then use it to join with other dataframes
 
+4. Technique 4: Partitioning Tips
+
+![image](https://user-images.githubusercontent.com/53032061/113518440-02423280-95a4-11eb-91db-d267cc22984c.png)
+
 
 
 5. Technique 5: Bucketing
