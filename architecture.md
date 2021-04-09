@@ -24,6 +24,8 @@ Stage
 Task  
   * Run by one executor  
   * processing one partition  
+  * each Task takes up one Thread, and is assumed to be assigned to one core
+  * Multiple tasks can run concurrently within an Executor (multiple threads)
   
 We should always look to minimize number of stages in our jobs because each new stage means shuffle  
 
